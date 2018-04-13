@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Will Htun </title>
+		<link rel="stylesheet" type="text/css" href="BasicWebpage.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="profilebubble"> </div>
+
+		<div id="pp">
+			 <img id="profilepic" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+		</div>
+
+		<div class="landing">
+			<head> Wai Yan (Will) Htun</head>
+			<p id="desc1"> Computer Science </p>
+			<p id="desc2"> willhtun42@gmail.com </p>
+		</div>
+
+		<div id="selector_container">
+			<div id="selector_left">
+			</div>
+			<div id="selector_middle1">
+				<div id="selector1"> </div>
+			</div>
+			<div id="selector_middle2">
+				<div id="selector2"> </div>
+			</div>
+			<div id="selector_middle3">
+				<div id="selector3"> </div>
+			</div>
+			<div id="selector_middle4">
+				<div id="selector4"> </div>
+			</div>
+			<div id="tselector_right">
+			</div>
+		</div>
+
+		<div id="tabs_container">
+			<div id="tabs_left">
+			</div>
+			<div id="tabs_middle1">
+				<div id="tabs1"> </div>
+			</div>
+			<div id="tabs_middle2">
+				<div id="tabs2"> </div>
+			</div>
+			<div id="tabs_middle3">
+				<div id="tabs3"> </div>
+			</div>
+			<div id="tabs_middle4">
+				<div id="tabs4"> </div>
+			</div>
+			<div id="tabs_right">
+			</div>
+		</div>
+
+		<div id="tabsB_container">
+			<div id="tabsB_left">
+			</div>
+			<div id="tabsB_middle1">
+				<div id="tabsB"> </div>
+			</div>
+			<div id="tabsB_middle2">
+				<div id="tabsB"> </div>
+			</div>
+			<div id="tabsB_middle3">
+				<div id="tabsB"> </div>
+			</div>
+			<div id="tabsB_middle4">
+				<div id="tabsB"> </div>
+			</div>
+			<div id="tabsB_right">
+			</div>
+		</div>
+
+		<div id="background_container">
+			<div id="background_left">
+			</div>
+			<div id="background_middle">
+				<div id="backgroundbubble"> </div>
+			</div>
+			<div id="background_right">
+			</div>
+		</div>
+
+		<div id="foreground_container">
+			<div id="foreground_left">
+			</div>
+			<div id="foreground_middle">
+				<div id="foregroundbubble"> </div>
+			</div>
+			<div id="foreground_right">
+			</div>
+		</div>
+
+		<div id="padding"> </div>
+
+		<script type="text/javascript">
+			document.getElementById('tabs1').style.cursor = 'pointer';
+			document.getElementById('tabs1').onclick = function() {
+			   document.getElementById('selector1').style.opacity="1";
+			   document.getElementById('selector2').style.opacity="0";
+			   document.getElementById('selector3').style.opacity="0";
+			   document.getElementById('selector4').style.opacity="0";
+			}
+
+			document.getElementById('tabs2').style.cursor = 'pointer';
+			document.getElementById('tabs2').onclick = function() {
+			   document.getElementById('selector1').style.opacity="0";
+			   document.getElementById('selector2').style.opacity="1";
+			   document.getElementById('selector3').style.opacity="0";
+			   document.getElementById('selector4').style.opacity="0";
+			}
+
+			document.getElementById('tabs3').style.cursor = 'pointer';
+			document.getElementById('tabs3').onclick = function() {
+			   document.getElementById('selector1').style.opacity="0";
+			   document.getElementById('selector2').style.opacity="0";
+			   document.getElementById('selector3').style.opacity="1";
+			   document.getElementById('selector4').style.opacity="0";
+			}
+
+			document.getElementById('tabs4').style.cursor = 'pointer';
+			document.getElementById('tabs4').onclick = function() {
+			   document.getElementById('selector1').style.opacity="0";
+			   document.getElementById('selector2').style.opacity="0";
+			   document.getElementById('selector3').style.opacity="0";
+			   document.getElementById('selector4').style.opacity="1";
+			}
+		</script>
+	</body>
+</html>
