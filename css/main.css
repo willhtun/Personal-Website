@@ -7,7 +7,7 @@
 }
 
 body {
-	background-image: url("/css/bg.png");
+	background-image: url("bg.png");
 	background-repeat: repeat;
 }
 
@@ -120,6 +120,17 @@ body {
 	width: 1000px;
 }
 
+#background_container2 {
+	display: table;
+	width: 100%;
+}
+#background_left2, #background_middle2, #background_right2 {
+	display: table-cell;
+}
+#background_middle2 {
+	width: 1000px;
+}
+
 #tabs1, #tabs2, #tabs3, #tabs4 {
 	width: 100px;
 	height: 100px;
@@ -186,8 +197,11 @@ body {
    -webkit-border-radius: 50px;
    border-radius:         50px;
 }
-
-#padding {
-	height: 100px;
-	width: 100px;
+#backgroundbubble2 {
+   width: 1000px;
+   height: 250px;
+   margin: auto;
+   margin-top: -100px;
+   background: gray;
+   position: relative;
 }
