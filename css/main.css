@@ -11,6 +11,79 @@ body {
 	background-repeat: repeat;
 }
 
+p {
+	margin-top: -500px;
+	margin-right: auto;
+	margin-left: auto;
+	color: red;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.subtitles {
+	color: gray;
+	font-size: 40px;
+}
+
+#p_containerA {
+	position: relative;
+	z-index: 3;
+	margin-top: -930px;
+	display: table;
+	width: 100%;
+}
+#p_leftA, #p_middleA, #p_rightA {
+	display: table-cell;
+}
+#p_middleA {
+	width: 900px;
+}
+
+#p_containerB {
+	opacity: 0;
+	position: relative;
+	z-index: 3;
+	margin-top: -125px;
+	display: table;
+	width: 100%;
+}
+#p_leftB, #p_middleB, #p_rightB {
+	display: table-cell;
+}
+#p_middleB {
+	width: 900px;
+}
+
+#p_containerC {
+	opacity: 0;
+	position: relative;
+	z-index: 3;
+	margin-top: -75px;
+	display: table;
+	width: 100%;
+}
+#p_leftC, #p_middleC, #p_rightC {
+	display: table-cell;
+}
+#p_middleC {
+	width: 900px;
+}
+
+#p_containerD {
+	opacity: 0;
+	position: relative;
+	z-index: 3;
+	margin-top: -74px;
+	display: table;
+	width: 100%;
+}
+#p_leftD, #p_middleD, #p_rightD {
+	display: table-cell;
+}
+#p_middleD {
+	width: 900px;
+}
+
 #pp {
 	width: 180px;
 	height: 180px;
@@ -64,7 +137,12 @@ body {
 	display: table-cell;
 }
 #tabs_middle1, #tabs_middle2, #tabs_middle3, #tabs_middle4 {
+	min-width: 220px;
+	max-width: 220px;
 	width: 220px;
+}
+#tabs_left, #tabs_right {
+	min-width: 60px;
 }
 
 #selector_container {
@@ -78,7 +156,12 @@ body {
 	display: table-cell;
 }
 #selector_middle1, #selector_middle2, #selector_middle3, #selector_middle4 {
+	min-width: 220px;
+	max-width: 220px;
 	width: 220px;
+}
+#selector_left, #selector_right {
+	min-width: 60px;
 }
 
 #tabsB_container {
@@ -92,7 +175,12 @@ body {
 	display: table-cell;
 }
 #tabsB_middle1, #tabsB_middle2, #tabsB_middle3, #tabsB_middle4 {
+	min-width: 220px;
+	max-width: 220px;
 	width: 220px;
+}
+#tabsB_left, #tabsB_right {
+	min-width: 60px;
 }
 
 #foreground_container {
@@ -199,7 +287,7 @@ body {
 }
 #backgroundbubble2 {
    width: 1000px;
-   height: 250px;
+   height: 150px;
    margin: auto;
    margin-top: -100px;
    background: gray;
