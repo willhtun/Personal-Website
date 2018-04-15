@@ -6,6 +6,10 @@
 	font-size: 30pt;
 }
 
+head {
+	font-family: 'Antic';
+}
+
 body {
 	background-image: url("bg.png");
 	background-repeat: repeat;
@@ -15,7 +19,6 @@ p {
 	margin-top: -500px;
 	margin-right: auto;
 	margin-left: auto;
-	color: red;
 	font-size: 18px;
 	line-height: 35px;
 }
