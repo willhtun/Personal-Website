@@ -3,7 +3,7 @@ head {
 }
 
 body {
-	background-image: url("/css/bg.png");
+	background-image: url("bg.png");
 	background-repeat: repeat;
 }
 
@@ -228,10 +228,5 @@ p {
 	background-size: cover;
 	background-position: center bottom;
 	margin-bottom: -110vh;
-	background-attachment: fixed;
-}
-.background2 {
-	background-image: url("bg.png");	
-	background-repeat: repeat;
 	background-attachment: fixed;
 }
