@@ -124,14 +124,14 @@ p {
 	bottom: 0px;
 	width:100%;
 	height: 50px;
-	background: grey;
+	background: #233c41;
 	z-index: 1;
 }
 #tabs1, #tabs2, #tabs3, #tabs4 {
 	width: 100px;
 	height: 40px;
 	margin: auto;
-	background: black;
+	background: grey;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
