@@ -20,8 +20,9 @@
 			</div>
 
 			<div id="info">
-				<head> Wai Yan (Will) Htun</head>
+				<head> Wai Yan Htun | Will</head>
 				<p id="desc1"> Computer Science </p>
+				<p id="desc2"> 3rd Year Undergraduate </p>
 			</div>
 		</div>
 
@@ -58,8 +59,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="tabs_background">
-			</div>
+			<div id="tabs_background"> </div>
 		</div>
 
 		<div class="body">
@@ -67,7 +67,7 @@
 				<div id="p_leftA">
 				</div>
 				<div id="p_middleA">
-					<h1 class="subtitles"> About Me </h1>
+					<h1 class="subtitles"> > About Me </h1>
 					<p style="font-family: 'Antic';font-size: 20px; margin-bottom: 30px;"> 
 						I am a 3rd year undergraduate student studying Computer Science at University of California, Los Angeles. I am based in Los Angeles, California, and plan to specialize in software engineering and AI. I very much enjoy exploring my creative side, and I have been drawing, crafting and building as long as I can remember. My goal is to combine this passion with my love for coding, to create applications and services that aim to bring convenience and connections to people around the globe.   
 					</p>
@@ -92,7 +92,7 @@
 				<div id="p_leftB">
 				</div>
 				<div id="p_middleB">
-					<h1 class="subtitles"> Projects </h1>
+					<h1 class="subtitles"> > Projects </h1>
 					
 				</div>
 				<div id="p_rightB">
@@ -103,8 +103,16 @@
 				<div id="p_leftC">
 				</div>
 				<div id="p_middleC">
-					<h1 class="subtitles"> Other Works </h1>
-					
+					<h1 class="subtitles"> > Skills </h1>
+					<p style="font-family: 'Antic';font-size: 20px; margin-bottom: 30px;"> 
+						Languages. C++ C# C Java JavaScript Python HTML CSS Verilog
+					</p>
+					<p style="font-family: 'Antic';font-size: 20px; margin-bottom: 30px;"> 
+						Speak.Write. Chinese(Mandarin) Burmese
+					</p>
+					<p style="font-family: 'Antic';font-size: 20px; margin-bottom: 30px;"> 
+						Digital.Editing. Photoshop Illustrator Blender3D Autodesk3DSMax
+					</p>
 				</div>
 				<div id="p_rightC">
 				</div>
@@ -114,7 +122,7 @@
 				<div id="p_leftD">
 				</div>
 				<div id="p_middleD">
-					<h1 class="subtitles"> Contact </h1>
+					<h1 class="subtitles"> > Contact </h1>
 						<p style="font-family: 'Antic';font-size: 20px;"> Email: willhtun42@gmail.com </p>
 						<p style="font-family: 'Antic';font-size: 20px;"> Phone: (626)510-4504 </p>
 				</div>
@@ -122,5 +130,31 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript">
+			document.getElementById('tabs1').style.cursor = 'pointer';
+			document.getElementById('tabs1').onclick = function() {
+				 $('html, body').animate({
+				    scrollTop: $("div#p_containerA").offset().top - 100
+				  }, 1000)
+			}
+			document.getElementById('tabs2').style.cursor = 'pointer';
+			document.getElementById('tabs2').onclick = function() {
+				 $('html, body').animate({
+				    scrollTop: $("div#p_containerB").offset().top - 100
+				  }, 1000)
+			}
+			document.getElementById('tabs3').style.cursor = 'pointer';
+			document.getElementById('tabs3').onclick = function() {
+				 $('html, body').animate({
+				    scrollTop: $("div#p_containerC").offset().top - 100
+				  }, 1000)
+			}
+			document.getElementById('tabs4').style.cursor = 'pointer';
+			document.getElementById('tabs4').onclick = function() {
+				 $('html, body').animate({
+				    scrollTop: $("div#p_containerD").offset().top
+				  }, 1000)
+			}
+		</script>
 	</body>
 </html>
