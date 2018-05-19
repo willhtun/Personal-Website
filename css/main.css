@@ -140,43 +140,6 @@ p {
 	margin: auto;
 }
 
-#selector1{
-	width: 100px;
-	height: 90px;
-	margin: auto;
-	background: white;
-}
-#selector2{
-	width: 100px;
-	height: 90px;
-	margin: auto;
-	opacity: 0;
-	background: white;
-}
-#selector3{
-	width: 100px;
-	height: 90px;
-	margin: auto;
-	opacity: 0;
-	background: white;
-}
-#selector4{
-	width: 100px;
-	height: 90px;
-	margin: auto;
-	opacity: 0;
-	background: white;
-}
-#tabsB {
-	width: 120px;
-	height: 120px;
-	margin: auto;
-	background: gray;
-	-moz-border-radius: 60px;
-	-webkit-border-radius: 60px;
-	border-radius: 60px;
-}
-
 #p_containerA, #p_containerB, #p_containerC, #p_containerD {
 	position: relative;
 	width: 100%;
