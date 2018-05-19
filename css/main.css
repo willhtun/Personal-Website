@@ -20,7 +20,7 @@ p {
 }
 
 .subtitles {
-	color: white;
+	color: black;
 	font-size: 30px;
 	margin-bottom: 30px;
 }
@@ -34,7 +34,7 @@ p {
 	right: 0;
 	left: 0;
 	top: 15%;
-	background: gray;
+	background: #dadada;
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
@@ -66,7 +66,7 @@ p {
 
 #info {
 	position: absolute;
-	color:black;
+	color:white;
 	text-align: center;
 	font-size: 30pt;
 	margin-right: auto;
@@ -185,18 +185,18 @@ p {
 }
 
 #p_middleA, #p_middleB, #p_middleC, #p_middleD {
-	background: grey;
 	padding: 40px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #p_middleA {
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
 	height: 470px;
-	background: black;
+	background: #e3eaea;
 }
 #p_middleB {
 	margin-left: auto;
