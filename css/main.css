@@ -118,6 +118,7 @@ p {
 	min-width: 120px;
 	max-width: 120px;
 	width: 120px;
+
 }
 #tabs_right1, #tabs_right2{
 	vertical-align: middle;
@@ -141,15 +142,7 @@ p {
 	background: #233c41;
 	z-index: 1;
 }
-#tabs1, #tabs2, #tabs3, #tabs4 {
-	width: 100px;
-	height: 40px;
-	margin: auto;
-	background: grey;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
+
 #tabsa, #tabsb {
 	margin: auto;
 }
@@ -206,4 +199,25 @@ p {
 	background-position: center bottom;
 	margin-bottom: -110vh;
 	background-attachment: fixed;
+}
+
+#tabSelector1, #tabSelector2, #tabSelector3, #tabSelector4 {
+	width: 100px;
+	height: 40px;
+	background: #adcece;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	opacity: 0.5;
+}
+
+#tabSelector1:hover, #tabSelector2:hover, #tabSelector3:hover, #tabSelector4:hover {
+	opacity: 1;
+}
+
+.tabLabels {
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	color: black;
 }
