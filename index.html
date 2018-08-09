@@ -138,7 +138,7 @@
   				node.style.width = (0.8 * screen.width) + 'px'
 			})
 
-			document.getElementsByClassName("background1").style.width = screen.width + 'px';
+			document.getElementsByClassName("background1")[0].style.width = screen.width + 'px';
 
 			document.querySelectorAll('.cursor').forEach(function(node) {
   				setInterval(function() {
@@ -148,10 +148,7 @@
 					node.setAttribute("style","opacity: 1");
 			}, 1000);
 			})
-
-
 			
-
 			function myMove() {
 			  var elem = document.getElementById("tabSelector");   
 			  var pos = 0;
