@@ -39,7 +39,8 @@ p {
 }
 
 .paragraph {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Jost*';
+	font-weight: light;
 	font-size: 17px;
 	color: #444444;
 }
@@ -171,14 +172,21 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#p_containerA {
+	margin-top: -40px;
+}
+
 #p_textwrapper {
-	padding: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px;
 	overflow: hidden;
 }
 
 .background1 {
 	background-image: url("bgl.jpg");
 	height: 110vh;
+	width: 100%;
 	background-size: cover;
 	background-position: center bottom;
 	margin-bottom: -110vh;
@@ -221,6 +229,12 @@ p {
 }
 
 .w3-display-right {
-	right: 40px;
+	right: 60px;
 	top: 105px;
+}
+
+.mySlides {
+	float:left; 
+	display: block; 
+	width: 100%;
 }
